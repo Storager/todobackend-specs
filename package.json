@@ -1,0 +1,20 @@
+{
+  "name": "todobackend-specs",
+  "version": "0.1.0",
+  "description": "Todobackend Acceptance Tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dmitrii Tcirulnikov",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^8.4.0",
+    "mocha-jenkins-reporter": "^0.1.9",
+    "superagent": "^8.1.2",
+    "superagent-promise": "^1.1.0"
+  }
+}
